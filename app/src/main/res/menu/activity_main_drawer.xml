@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Menu">
+
+            <menu>
+
+                <item
+                    android:id="@+id/Profil"
+                    android:icon="@drawable/person"
+                    android:title="home" />
+                <item
+                    android:id="@+id/language"
+                    android:icon="@drawable/ic_baseline_language_24"
+                    android:title="Bank" />
+                <item
+                    android:id="@+id/Bank"
+                    android:icon="@drawable/balance"
+                    android:title="Bank" />
+
+
+            </menu>
+        </item>
+        </group>
+        <item android:title="Other">
+
+            <menu>
+
+                <item
+                    android:id="@+id/send"
+                    android:icon="@drawable/ic_baseline_send_24"
+                    android:title="Send SMS" />
+                <item
+                    android:id="@+id/call"
+                    android:icon="@drawable/ic_baseline_call_24"
+                    android:title="Call centre" />
+                <item
+                    android:id="@+id/star"
+                    android:icon="@drawable/ic_baseline_star_outline_24"
+                    android:title="Star" />
+            </menu>
+        </item>
+        <item android:title="Other">
+
+            <menu>
+
+                <item
+                    android:id="@+id/setting"
+                    android:icon="@drawable/setting"
+                    android:title="home" />
+                <item
+                    android:id="@+id/crcode"
+                    android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+                    android:title="CR cod" />
+                <item
+                    android:id="@+id/chiqish"
+                    android:icon="@drawable/chiqish"
+                    android:title="Exit" />
+            </menu>
+        </item>
+    </menu>

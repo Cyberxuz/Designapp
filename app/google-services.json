@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "95548246691",
+    "project_id": "designapp-b9853",
+    "storage_bucket": "designapp-b9853.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95548246691:android:2388e78b685f4ff8e04d16",
+        "android_client_info": {
+          "package_name": "com.example.dizayn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95548246691-1u1qocotohpqoufnkasjo6g13rpvvhin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dizayn",
+            "certificate_hash": "186c390e4e676e7fdc84a434daf395047204f8f0"
+          }
+        },
+        {
+          "client_id": "95548246691-8o7ibb48o454dhh96k64ajsgpnh11hhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA30T_-tFRuGKeRTcFLRWE0IUEiTmwxOss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95548246691-8o7ibb48o454dhh96k64ajsgpnh11hhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

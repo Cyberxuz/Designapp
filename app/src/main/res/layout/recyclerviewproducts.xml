@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageviewproduct2"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:src="@drawable/qwe222"
+                android:scaleType="centerCrop"></ImageView>
+            <RelativeLayout
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                android:id="@+id/textviewproductnameeeeee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="King Size Food"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                    android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                ></TextView>
+                <TextView
+                    android:id="@+id/textviewproductnameeeeee2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special Offers.Best food in the world"
+                    android:layout_below="@id/textviewproductnameeeeee"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="21dp"
+                    android:gravity="center"
+
+                    ></TextView>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonorder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/white"
+                    android:text="Order"
+                    android:layout_margin="8dp"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/buttonbackground"
+                    ></androidx.appcompat.widget.AppCompatButton>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
